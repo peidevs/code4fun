@@ -1,5 +1,6 @@
 
 // just for fun, from Slack channel
+// This is not efficient! The idea is to use the Groovy libraries to full extent.
 
 class DayTrader {
     def values
