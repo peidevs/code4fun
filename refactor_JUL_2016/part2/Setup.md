@@ -8,6 +8,7 @@
 * Open 'Docker Quick Start Terminal'
 * Search online repository: `docker search mono`
 * Pull the Mono image: `docker pull mono` 
+* Confirm the new image: `docker images`
 
 ##### Test Mono Container
 
