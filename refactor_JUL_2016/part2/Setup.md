@@ -15,7 +15,8 @@
     * ensure that it contains code from this GitHub repo
 * Start a Mono container: `docker run -i -t -v $MY_SRC_HOME:/data  mono:latest`
 * At the container prompt, try the `Hello` program:
-```cd /data
+```bash
+cd /data
 mcs Hello.cs
 mono Hello.exe
 ```
