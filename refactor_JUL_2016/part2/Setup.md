@@ -6,9 +6,17 @@
 * These instructions work for Mac OS X. Tweak as appropriate
 * Install Docker from [here](https://www.docker.com/) 
 * Open 'Docker Quick Start Terminal'
-* Search online repository with `docker search mono`
-* Pull the Mono image with `docker pull mono` 
+* Search online repository: `docker search mono`
+* Pull the Mono image: `docker pull mono` 
 
 ##### Test Mono Container
 
-* These instructions work for Mac OS X. Tweak as appropriate
+* set env variable `MY_SRC_HOME` to be your desired working directory
+    * ensure that it contains code from this GitHub repo
+* Start a Mono container: `docker run -i -t -v $MY_SRC_HOME:/data  mono:latest`
+* At the container prompt, try the `Hello` program:
+```cd /data
+mcs Hello.cs
+mono Hello.exe
+```
+* Profit!
