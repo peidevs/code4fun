@@ -11,7 +11,8 @@
 
 ##### Test Mono Container
 
-* set env variable `MY_SRC_HOME` to be your desired working directory
+* For newbies, a *container* is essentially a *virtual machine* (a gross simplication, but ...)
+* Set env variable `MY_SRC_HOME` to be your desired working directory (it will be `/data` in the container)
     * ensure that it contains code from this GitHub repo
 * Start a Mono container: `docker run -i -t -v $MY_SRC_HOME:/data  mono:latest`
 * At the container prompt, try the `Hello` program:
