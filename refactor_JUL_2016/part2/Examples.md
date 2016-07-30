@@ -2,8 +2,8 @@
 #### Examples
 
 * `Animals0.cs` uses a switch statement
-* `Animals1.cs` uses a `Dictionary` mapping enums to anonymous functions
-* `Animals2.cs` uses a `Dictionary` mapping enums to types
+* `Animals1.cs` uses a `Dictionary` to map enums to anonymous functions
+* `Animals2.cs` uses a `Dictionary` to map enums to types
 * In a Mono container, run and example like so:
 ```bash
 cd /data
