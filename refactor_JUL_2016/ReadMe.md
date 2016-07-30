@@ -5,9 +5,11 @@
 
 #### Part 1
 
-* Matt's original stuff here
+* TODO: Matt's original refactoring narrative, musings, etc. 
 
 #### Part 2
 
-* Q: What if we morph the original code into an `Animal` example, and strive to remove the original `switch` statement?
 * Q: Can we setup a simple, transient C# labratory without polluting our computers with miscellaneous stuff?
+    * A: Yep, with Docker. [Here's how]()
+* Q: What if we morph the original code into an `Animal` example, and strive to remove the original `switch` statement?
+    * A: [Here]() are some simple examples in C#
