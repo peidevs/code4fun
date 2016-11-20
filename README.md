@@ -2,5 +2,6 @@
 
 various threads from Slack channel
 
-* `daytrading` is a challenge posted in January 2016
-* `refactoring_JUL_2016` is a thread posted in July 2016
+* `daytrading` is a challenge posted in JAN 2016
+* `refactoring_JUL_2016` is a thread posted in JUL 2016
+* `docker_NOV_2016` is a thread on Docker basics, NOV 2016
